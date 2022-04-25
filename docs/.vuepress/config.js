@@ -9,4 +9,20 @@ module.exports = {
     themeConfig: {
         logo: 'https://vuejs.org/images/logo.png',
     },
+    plugins: [
+        [
+          '@vuepress/plugin-search',
+          {
+            locales: {
+              '/': {
+                placeholder: 'Search',
+              },
+              '/zh/': {
+                placeholder: '搜索',
+              },
+            },
+          },
+        ],
+      ],
+    
 }
