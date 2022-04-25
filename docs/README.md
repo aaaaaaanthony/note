@@ -12,11 +12,11 @@ features:
 - title: 实用
   details: 这不是百科全书，但在全面的基础上尽量展示最可能用到的部分。
 actions:
-  - text: 快速上手123
+  - text: 快速上手
     link: /es6/es6.html
     type: primary
 footer: anthony
 ---
 
 
-312312312312312
+学习文档
