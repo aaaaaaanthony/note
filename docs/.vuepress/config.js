@@ -12,8 +12,11 @@ module.exports = {
           {
             text: 'ES6',
             children: [
-              '/es6/1.let和const命令.md',
-              '/es6/2.变量的解构赋值.md',
+              '/ES6/1.let和const命令.md',
+              '/ES6/2.变量的解构赋值.md',
+              '/ES6/3.字符串扩展.md',
+              '/ES6/4.字符串的新增方法.md',
+              '/ES6/5.Module的语法.md',
             ],
           },
         ]
