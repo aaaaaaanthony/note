@@ -13,7 +13,7 @@ features:
   details: 这不是百科全书，但在全面的基础上尽量展示最可能用到的部分。
 actions:
   - text: 快速上手
-    link: /es6/es6.html
+    link: /es6/1.let和const命令.html
     type: primary
 footer: anthony
 ---

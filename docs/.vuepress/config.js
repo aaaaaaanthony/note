@@ -8,6 +8,15 @@ module.exports = {
     theme: '@vuepress/theme-default',
     themeConfig: {
         logo: 'https://vuejs.org/images/logo.png',
+        sidebar:[
+          {
+            text: 'ES6',
+            children: [
+              '/es6/1.let和const命令.md',
+              '/es6/2.变量的解构赋值.md',
+            ],
+          },
+        ]
     },
     plugins: [
         [
