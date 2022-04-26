@@ -1,7 +1,8 @@
 {
-  "name": "vuepress-starter-ES6",
+  "name": "note",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "积累技术",
   "author": "OldYoung <mmzcg@outlook.com>",
   "license": "MIT",
   "scripts": {
