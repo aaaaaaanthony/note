@@ -8,24 +8,6 @@ module.exports = {
     theme: '@vuepress/theme-default',
     themeConfig: {
         logo: 'https://vuejs.org/images/logo.png',
-        // sidebar:[
-        //   {
-        //     text: 'ES6',
-        //     children: [
-        //       '/ES6/1.let和const命令.md',
-        //       '/ES6/2.变量的解构赋值.md',
-        //       '/ES6/3.字符串扩展.md',
-        //       '/ES6/4.字符串的新增方法.md',
-        //       '/ES6/5.Module的语法.md',
-        //     ],
-        //   },
-        //   {
-        //     text: 'TypeScript',
-        //     children: [
-        //       '/TypeScript/1.教程.md',
-        //     ],
-        //   },
-        // ],
         sidebar: {
           '/ES6/': [
             {
@@ -43,7 +25,7 @@ module.exports = {
             {
               text: 'ES6',
               children: [
-                '/TypeScript/1.教程.md'
+                '/TypeScript/1.安装.md'
               ],
             },
           ],
@@ -60,7 +42,7 @@ module.exports = {
           },
           {
             text: 'TS',
-            link: '/TypeScript/1.教程.html',
+            link: '/TypeScript/1.安装.html',
           },
           // NavbarGroup
           {

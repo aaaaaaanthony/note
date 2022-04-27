@@ -16,7 +16,7 @@ actions:
     link: /ES6/1.let和const命令.html
     type: primary
   - text: TypeScript笔记
-    link: /TypeScript/1.教程.html
+    link: /TypeScript/1.安装.html
     type: primary
 footer: anthony
 ---
