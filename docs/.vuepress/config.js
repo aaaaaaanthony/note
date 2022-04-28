@@ -9,21 +9,21 @@ module.exports = {
     themeConfig: {
         logo: 'https://vuejs.org/images/logo.png',
         sidebar: {
-          '/ES6/': [
+          '/es6/': [
             {
-              text: 'ES6',
+              text: 'es6',
               children: [
-                '/ES6/1.let和const命令.md',
-                '/ES6/2.变量的解构赋值.md',
-                '/ES6/3.字符串扩展.md',
-                '/ES6/4.字符串的新增方法.md',
-                '/ES6/5.Module的语法.md',
+                '/es6/1.let和const命令.md',
+                '/es6/2.变量的解构赋值.md',
+                '/es6/3.字符串扩展.md',
+                '/es6/4.字符串的新增方法.md',
+                '/es6/5.Module的语法.md',
               ],
             },
           ],
           '/TypeScript/': [
             {
-              text: 'ES6',
+              text: 'es6',
               children: [
                 '/TypeScript/1.安装.md'
               ],
@@ -37,8 +37,8 @@ module.exports = {
             link: '/',
           },
           {
-            text: 'ES6',
-            link: '/ES6/1.let和const命令.html',
+            text: 'es6',
+            link: '/es6/1.let和const命令.html',
           },
           {
             text: 'TS',
