@@ -23,7 +23,7 @@ module.exports = {
           ],
           '/TypeScript/': [
             {
-              text: 'es6',
+              text: 'TypeScript',
               children: [
                 '/TypeScript/1.安装.md'
               ],
