@@ -11,7 +11,7 @@ module.exports = {
         sidebar: {
           '/es6/': [
             {
-              text: 'es6',
+              text: 'ES6',
               children: [
                 '/es6/1.let和const命令.md',
                 '/es6/2.变量的解构赋值.md',
@@ -29,6 +29,14 @@ module.exports = {
               ],
             },
           ],
+          '/git/': [
+            {
+              // text: 'Git',
+              children: [
+                '/git/git.md'
+              ],
+            },
+          ],
         },
         navbar: [
           // NavbarItem
@@ -37,12 +45,16 @@ module.exports = {
             link: '/',
           },
           {
-            text: 'es6',
+            text: 'ES6',
             link: '/es6/1.let和const命令.html',
           },
           {
             text: 'TS',
             link: '/TypeScript/1.安装.html',
+          },
+          {
+            text: 'Git',
+            link: '/git/git.html',
           },
           // NavbarGroup
           {
